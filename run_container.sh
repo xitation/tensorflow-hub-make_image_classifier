@@ -29,7 +29,7 @@ if [ "$2" == "debug" ]; then
   exit 0
 fi
 
-echo "Path provided to analyise $1"
+echo "Path provided to analyse $1"
 echo "Extracted directory for docker -v mount: $DIR_NAME"
 echo "Extracted DIR variable required for entrypoint.sh script: $BASE_NAME"
 
